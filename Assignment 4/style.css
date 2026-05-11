@@ -514,13 +514,9 @@ header {
 
 #projects-title h5 {
   color: #6f8a96;
-  line-height: .5em;
+  line-height: 1em;
   font-size: 1.5em;
-
-
   letter-spacing: 2px;
-
-  /* margin-bottom: 5px; */
 }
 
 #projects-title h1 {
@@ -530,7 +526,7 @@ header {
 
   letter-spacing: 3px;
 
-  font-weight: 700;
+  font-weight: 500;
 
   /* line-height: 70px; */
 }
@@ -791,27 +787,16 @@ header {
     0 0 50px #0FBC9F;
 }
 
-/* ARROW BUTTON */
-
 .arrow-btn {
-  /* width:75px; */
-  /* height:75px; */
-
   border-radius: 50%;
   padding: 5px;
-
   border: 2px solid #0FBC9F;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: #0FBC9F;
-
   font-size: 2em;
-
   cursor: pointer;
-
   transition: 0.4s;
 }
 
@@ -826,4 +811,21 @@ header {
     0 0 15px #0FBC9F,
     0 0 40px #0FBC9F,
     0 0 80px #0FBC9F;
+}
+
+#roadmap-heading{
+  background-color: #020202;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+#roadmap-heading h1{
+  margin-top: 3%;
+  color: #6f8a96;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#roadmap-heading h1 span{
+  color: #0FBC9F;
 }
