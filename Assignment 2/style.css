@@ -478,3 +478,101 @@ font-family: Arial, Helvetica, sans-serif;
 
     background:#E6DED5;
 }
+
+#all-rights{
+    width:100%;
+
+    margin-top:18px;
+
+    padding:18px 25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#f5f2eb;
+
+    border-top:1px solid #d8d2c7;
+}
+
+/* TEXT */
+
+#all-rights p{
+    color:#5e5a52;
+
+    font-size:16px;
+
+    letter-spacing:0.3px;
+
+    display:flex;
+    align-items:center;
+
+    gap:10px;
+}
+
+/* LINK */
+
+#all-rights p a{
+    color:#0FBC9F;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:0.3s;
+}
+
+/* HOVER */
+
+#all-rights p a:hover{
+    color:#0b8f79;
+}
+
+#all-rights{
+    width:100%;
+
+    margin-top:18px;
+
+    padding:18px 25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#f5f2eb;
+
+    border-top:1px solid #d8d2c7;
+}
+
+/* TEXT */
+
+#all-rights p{
+    color:#5e5a52;
+
+    font-size:16px;
+
+    letter-spacing:0.3px;
+
+    display:flex;
+    align-items:center;
+
+    gap:10px;
+}
+
+/* LINK */
+
+#all-rights p a{
+    color:#0FBC9F;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:0.3s;
+}
+
+/* HOVER */
+
+#all-rights p a:hover{
+    color:#0b8f79;
+}
