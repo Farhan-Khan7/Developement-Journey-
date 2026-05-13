@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 80px 200px 320px 120px;
+
+
+    grid-template-areas: 
+    "top top  "
+    "aside section1 "
+    "aside section2 "
+    "aside section2 "
+    "footer footer "
+    ;
+
+}
+
+
+
+.top{
+    width: 100%;
+    height: 80px;
+    grid-area: top;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    border-bottom: 2px solid rgb(230, 222, 222);
+}
+
+/* LOGO */
+
+.logo h1{
+    font-size: 2.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+/* NAV LINKS */
+
+.top nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.top nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.top nav a:hover{
+    opacity: 0.6;
+}
+
+/* ICONS */
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.nav-icons i{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.cart{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart i{
+    color: white;
+    font-size: 1.3rem;
+}
+/* navbar done  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aside {
+    background: #7dffaf;
+    border-radius: 2px;
+    grid-area: aside;
+}
+
+.section-1 {
+    background-color: #F7F7F7;
+    border-radius: 2px;
+    grid-area: section1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.section-1 h1{
+    text-align: center;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+
+}
+
+
+
+.section-2 {
+    background: #3520d2;
+    border-radius: 2px;
+    grid-area: section2;
+}
+
+.footer {
+    background: #08ef32;
+    border-radius: 2px;
+    grid-area: footer;
+    height: 30vh;
+}
