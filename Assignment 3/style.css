@@ -12,16 +12,75 @@ body{
 main{
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: grid;
     grid-template-rows: 70px  calc(100% - 70px) 0px;
 }
 
+
 .top{
-    background-color: #be6060;
-    border-radius: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 50px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 10px;
 }
 
+.logo h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: -2px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    opacity: 0.6;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.nav-icons i{
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.cart{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart i{
+    color: white;
+    font-size: 22px;
+}
 
 
 
@@ -33,14 +92,14 @@ main{
 
 
 .hero{
-    background-color: #552525;
+    /* background-color: #552525; */
     border-radius: 2px solid black;
     display: grid;
     grid-template-columns: 20% 80%;
 }
 
 .hero-left{
-    background-color: #d17676;
+    /* background-color: #d17676; */
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -52,6 +111,9 @@ main{
 }
 
 .hero-left-bottom{
+    background-image: url(img-1.png);
+    background-position: center;
+    background-size: cover;
     border-radius: 30px;
     height: 45%;
     width: 80%;
@@ -59,26 +121,24 @@ main{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .hero-right{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: grid;
     grid-template-rows: 20% 80%;
 }
 
 .hero-right-top{
-    background-color: #120101;
-
+    /* background-color: #d19b9b; */
+    display: flex;
+    margin-top: 1%;
+    width: fit-content;
+    margin-left: 7%;
+}
+.hero-right-top h1{
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
 }
 .hero-right-bottom{
     /* background-color: rgb(72, 140, 200); */
@@ -96,6 +156,7 @@ main{
 
 .hero-right-bottom-first{
     /* background-color: burlywood; */
+    
     display: grid;
     grid-template-rows: 1fr 1.5fr;
     gap: 20px;
@@ -106,12 +167,18 @@ main{
 }
 .hero-right-bottom-first-small-img{
     background-color: rgb(154, 192, 226);
+    background-image: url(img-2.png);
+    background-position: center;
+    background-size: cover;
     width: 100%;
     justify-self: center;
     border-radius: 30px;
 }
 .hero-right-bottom-first-big-img{
     background-color: rgb(13, 116, 207);
+    background-image: url(img-3.png);
+    background-position: center;
+    background-size: cover;
     width: 100%;
     justify-self: center;
     border-radius: 30px;
@@ -121,6 +188,9 @@ main{
     background-color: rgb(82, 125, 38);
     border-radius: 30px;
     width: 100%;
+    background-image: url(img-4.png);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -136,12 +206,18 @@ main{
 
 }
 .hero-right-bottom-third-small-img{
+    background-image: url(img-6.png);
+    background-position: center;
+    background-size: cover;
     background-color: coral;
     width: 100%;
     justify-self: center;
     border-radius: 30px;
 }
 .hero-right-bottom-third-big-img{
+    background-image: url(img-5.png);
+    background-position: center;
+    background-size: cover;
     background-color: rgb(189, 101, 69);
     width: 100%;
     justify-self: center;
@@ -150,6 +226,9 @@ main{
 
 
 .hero-right-bottom-last{
+    background-image: url(img-7);
+    background-size: cover;
+    background-position: center;
     margin-top: 8%;
     /* justify-self: center; */
     background-color: darkgray;
@@ -159,9 +238,6 @@ main{
     align-self: center;
     border-radius: 30px;
 }
-
-
-
 
 
 
