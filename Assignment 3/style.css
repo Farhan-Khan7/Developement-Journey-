@@ -321,6 +321,12 @@ nav a:hover {
     position: absolute;
 }
 
+.footer .footer-img-2{
+    top: 17%;
+    width: 4%;
+    left: 64%;
+    position: absolute;
+}
 
 .footer-text p {
     font-family: Arial, Helvetica, sans-serif;
