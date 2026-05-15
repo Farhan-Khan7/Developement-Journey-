@@ -297,7 +297,7 @@ body {
     transition: 0.5s ease;
 }
 
-.project-card:hover img {
+.project-image:hover img {
     transform: scale(1.05);
 }
 
