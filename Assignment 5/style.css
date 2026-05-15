@@ -1111,6 +1111,7 @@ footer {
 }
 
 .footer-column a {
+    width: fit-content;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: #000;
@@ -1118,10 +1119,16 @@ footer {
     transition: 0.3s;
 }
 
-.footer-column a:hover {
-    padding-left: 8px;
+.footer-border-bottom {
+    background-color: #000;
+    height: 1.5px;
+    width: 0%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
+.footer-column a:hover .footer-border-bottom{
+    width: 100%;
+}
 .footer-column .footer-btn{
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: fit-content;
